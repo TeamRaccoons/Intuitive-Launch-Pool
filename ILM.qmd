@@ -194,8 +194,8 @@ As mentioned before, the liquidity distribution describes the number of tokens
 available at each price point.
 
 We get the liquidity distribution graph by first rewriting the equation
-$P=(M-I)\left(\frac CA\right)^K+I$ to express C in terms of P. This is
-$C=\sqrt[K]{\frac{M-I}{P-I}}$  The derivative of that is then the liquidity
+$P=(M-I)\left(\frac CA\right)^K+I$ to express C in terms of P which is
+$C=A \sqrt[K]{\frac{P-I}{M-I}}$ . The derivative of that is then the liquidity
 distribution which is $\frac{A\sqrt[K]{\frac{M-I}{P-I}}}{K\left(P-I\right)}$.
 This represents the amount of tokens available at each price. The integral of the
 graph is the total number of tokens in the pool initially and the number of tokens available within a price range can be found with it.
