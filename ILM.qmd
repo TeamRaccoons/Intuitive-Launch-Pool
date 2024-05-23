@@ -83,7 +83,7 @@ The full formula can be complex, so we can first simplify it into a straight lin
 
 Here, the price increases at the same rate throughout the entire graph and the price starts from 0 USDC.
 
-We can then introduce a new variable, I, the initial price. The formula thus changes to $P=\frac{\left(M-I\right)C}{A}$. With I, the Y-intercept increases but the max price doesn't change. 
+We can then introduce a new variable, I, the initial price. The formula thus changes to $P=\frac{\left(M-I\right)C}{A}+I$. With I, the Y-intercept increases but the max price doesn't change. 
 
 ![](images/linear.png)
 
